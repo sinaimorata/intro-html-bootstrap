@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Html</title>
+    <!-- ponemos aquí el link para traer los estilos que están en el archivo styles.css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- AQUÍ REFERENCIO A JS. NO SE PONE EL TEXTO DE JS DENTRO DEL HTML -->
+    <script src="js/app.js" defer></script>
+</head>
+
+<!-- centrar la página se hace dentro del body -->
+<body style="text-align: center;">
+    <header>
+        <!-- aquí va el menú -->
+        <h1 id="txtTitulo">titulo</h1>
+    </header>
+
+    <section>
+        <!-- aquí va el contenido de la página web -->
+        <div>
+            <!-- esta etiqueta es un contenedor -->
+            <input type="text"  id="txtDato" placeholder="Aquí ingresa dato">
+            <button id="btnaction" onclick="hola()">Presioname</button>
+        </div>
+    </section>
+    
+    <footer>
+        <!-- aquí va el pie de la página, mi ubicación, mis links a redes sociales, la ubicación de mi empresa -->
+        <!-- Una manera de llamar al estilo: class="miEstilo que hemos declarado arriba" -->
+        <p class="miEstilo">Esto es el pie de la página</p>
+    </footer>
+</body>
+</html>
+
+<!--Esto es un comentario en htmil
+//siempre la extensio definida y pongo cierre signo admiracion me hace arquitectura base.
+//<!DOCTYPE html> esto es una etiqueta q puede ir sola o puede tener una apertura y un cierra. apertura con head y cierre con la barra </head>
+//lo mismo el body o la principal
+//<html lang="en"> aqui se le pasa el lenguaje
+// en head van los links a css a java script también a otras aplicaciones
+//meta name="viewport" content="width=device-width, initial-scale=1.0">escala de tamaños
+//<title>Document</title> link a paginas q hagan que sea vea mi pagina.
+//el menu va dentro del body que se divide en tres etiquetas header-sectio y footer
+LO NORMAL ES Q EN EL ARCHIVO CSS ESTEN TODOS LOS ESTILOS Y DESDE ESE LUGAR SE LES LLAMA
+//en HEAD van los links
+// en BODY va el menú
+EXISTEN TRES FORMAS DE LLAMAR A LOS ESTILOS-INDAGAR.
+// exiten etiquetas para cada cosa: contener texto, contener imagenes, contener videos.-->
+
+
+<!--- HEADER= MENUS; SECTION= CONTENIDO; FOOTER =PIE DE PAG, INPUT=ETIQUETAS DE ENTRADA DE TEXTO;TYPE = TEXT, PASDWORD, NUMBER, DATE -->
+
+<!--Para darle vida: se hace con los estilos>
+
+<!-Los estilos se declaran dentro de css y luego hay que llamarlos, desde index. Como se llaman: usando la etiqueta link-->
+
+<!--JAVA SCRIPT, LENGUA DETER PR NAVEGADORES. TIENE MUCHA RELACION CON HTML Y EXISTE UNA ETIQUE ESPECIAL PR EJECUTAR JAVA S. LLAMADA SCRIPT -->
+<!--Esto es parecido a nuestro print console.log alertalert("Esto es Java Script");-->
+
+<!--DOM LO BUENO DE J SCRIPT CON HTML ES Q PUEDO ACCEDER AL DOM-DOCUMEN OBJECT MODEL. ESTO SUP9ONE Q PUEDO ACCEDER A CUALQUIER PAG Y CON JS MODFICARLA
+MODFIICAR CUALQUIER ETIQUETA Y COMO HAGO ESO.EJ CON EL TITULO-->
+<!--como crear una funcion y llamarla desde un boton. usando una etiqueta id o name que sirven para pasar la referencia y class. En formularios con imputs el name.
+Usamo etiqueta onclick.  onclick="hola()"LLAMO DIRECTAMENTE-->
+<!--aacedo a una etiqueta a traves de una variable-->
+<!--Esto  titulo.innertText = metodo o propiedad para acceder al cambio de texto.-->
